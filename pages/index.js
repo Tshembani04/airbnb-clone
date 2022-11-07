@@ -14,6 +14,8 @@ export default function Home({ exploreData, cardsData }) {
       <Head>
         <title>Airbnb Clone</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css" rel="stylesheet" />
+
       </Head>
       <Header />
       <Banner />
